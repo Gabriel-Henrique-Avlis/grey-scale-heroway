@@ -1,0 +1,33 @@
+@import 'nav.css';
+@import 'banner.css';
+@import 'smartphone.css';
+@import 'assets.css';
+@import 'contact.css'; 
+@import 'footer.css';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('../img/Grayscale/bg-masthead.jpg');
+    background-repeat: no-repeat;
+    background-size: 1400px 580px;
+}
+
+@media (max-width: 599px) {
+    body {
+        background-image: url('../img/Grayscale/bg-masthead.jpg');
+        background-repeat: no-repeat;
+        background-size: 599px 620px;
+        margin-right: -10px;
+        overflow-x: hidden;
+    }
+}

@@ -1,0 +1,62 @@
+.section-banner {
+    height: 500px;
+    display: flex;
+}
+
+.section-banner > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 0 20px;
+    color: black;
+}
+
+
+.section-banner > .container > h1 {
+    margin: 5px;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 10px;
+    background: -webkit-linear-gradient(90deg, rgba(152,152,152,1) 0%, rgba(228,228,228,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-banner > .container > p{
+    text-align: center;
+    font-size: 17px;
+    width: 300px;
+    margin-bottom: 25px;
+    color: #9C9C9C;
+    font-family: 'Nunito', sans-serif;
+}
+
+.section-banner > .container > button {
+    padding: 15px 30px;
+    background-color: #64A19D;
+    color: ivory;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 599px) {
+    .section-banner > .container > h1 {
+        margin: 5px;
+        font-size: 60px;
+        text-transform: uppercase;
+        font-family: 'Varela Round', sans-serif;
+        letter-spacing: 10px;
+        background: -webkit-linear-gradient(90deg, rgba(152,152,152,1) 0%, rgba(228,228,228,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
